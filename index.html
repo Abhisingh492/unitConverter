@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav_logo">
+                <img src="logo_conv.png" alt="converter logo">
+            </div>
+            <div id="nav_menu">
+                <ul>
+                    <li id="len">Length</li>
+                    <li id="temp">Temperature</li>
+                    <li id="tym">Time</li>
+                    <li id="wt">Weight</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="converter">
+        <div id="con_div">
+            <div id="conv_box">
+
+                <input type="number" id="a_box" value = "0" name="aName">
+                
+                <input type="text" id="b_box" value = "0" name="bName" readonly>
+                <!-- <p id="b_box"></p> -->
+
+            </div>
+        </div>
+    </section>
+    <section id="options">
+            <div id="from">
+                <h2>From:</h2>
+                <ul id="ul_from">
+
+                </ul>
+            </div>
+            <div id="to">
+                <h2>To: </h2>
+                <ul id="ul_to"></ul>
+            </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('bg.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+}
+#nav_logo{
+    margin: 5px 25px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#nav_logo:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+#nav_logo img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 100px;
+}
+
+#nav_menu{
+    margin: auto;
+}
+/* #nav_menu  */
+ul{
+    text-align: center;
+    margin: 10px auto;
+}
+/* #nav_menu  */
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    padding: 18px;
+    border: 2px solid red;
+    border-radius: 34px;
+    background-color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+/* #nav_menu  */
+li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+header{
+    border-radius: 0px 0px 50px 50px;
+    background-color: rgba(179, 141, 214, 0.6);
+}
+
+#converter{
+    height: 300px;
+    width: 700px;
+    margin: 50px auto;
+    padding: 50px 100px;
+    border-radius: 50px;
+    background-color: rgba(250, 235, 215, 0.5);
+}
+
+#con_div h1{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#conv_box{
+    border-radius: 35px;
+    background-color: rgba(168, 110, 222, 0.6);
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+}
+
+#conv_box input{
+    height: 75%;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#conv_box label{
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#options{
+}
+
+#from{
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 80%;
+    background-color: rgba(250, 235, 215, 0.5);
+    border-radius: 35px;
+}
+
+#to{
+    margin: 20px auto;
+    padding: 20px;
+    height: 100px;
+    width: 80%;
+    background-color: rgba(250, 235, 215, 0.5);
+    border-radius: 35px;
+}
